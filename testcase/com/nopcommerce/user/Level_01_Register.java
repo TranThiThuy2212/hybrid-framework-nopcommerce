@@ -3,7 +3,6 @@ package com.nopcommerce.user;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -11,7 +10,7 @@ import org.testng.annotations.Test;
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
-public class User_01_Register {
+public class Level_01_Register {
     WebDriver driver;
     String projectPath=System.getProperty("user.dir");
     String emailAddress = "abc"+ganarateNumber()+"@gmail.com";
