@@ -76,6 +76,8 @@ public class Level_02_Apply_BasePage_I {
         basePage.clickToElement(driver,"//button[@id='register-button']");
         Assert.assertEquals(basePage.getElementText(driver,"//div[@class='result']"),"Your registration completed");
 
+        basePage.waitForElementClickable(driver,"//a[text()='Continue']");
+        basePage.clickToElement(driver,"//a[text()='Continue']");
     }
     @Test
     public void TC_04_Register_Exiting_Email(){
