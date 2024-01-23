@@ -75,8 +75,9 @@ public class RegisterPageObject extends BasePage {
         return getElementText(driver, RegisterPageUI.ERROR_EXISTING_EMAIL_MESSAGE);
     }
 
-    public void clickToContinueButton() {
+    public HomePageObject clickToContinueButton() {
         waitForElementClickable(driver, RegisterPageUI.CONTINUE_BUTTON);
         clickToElement(driver, RegisterPageUI.CONTINUE_BUTTON);
+        return PageGenaratorManager.getHomePage(driver);
     }
 }
