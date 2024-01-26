@@ -1,12 +1,12 @@
-package pageObjects;
+package pageObjects.user;
 
 import commons.BasePage;
 import org.openqa.selenium.WebDriver;
-import pageUIs.RegisterPageUI;
+import pageUIs.user.RegisterPageUI;
 
-public class RegisterPageObject extends BasePage {
+public class UserRegisterPageObject extends BasePage {
     private WebDriver driver;
-    public RegisterPageObject(WebDriver driver) {
+    public UserRegisterPageObject(WebDriver driver) {
         this.driver = driver;
     }
     public void clickToRegisterButton() {
@@ -75,9 +75,9 @@ public class RegisterPageObject extends BasePage {
         return getElementText(driver, RegisterPageUI.ERROR_EXISTING_EMAIL_MESSAGE);
     }
 
-    public HomePageObject clickToContinueButton() {
+    public UserHomePageObject clickToContinueButton() {
         waitForElementClickable(driver, RegisterPageUI.CONTINUE_BUTTON);
         clickToElement(driver, RegisterPageUI.CONTINUE_BUTTON);
-        return PageGenaratorManager.getHomePage(driver);
+        return PageGenaratorManager.getUserHomePage(driver);
     }
 }

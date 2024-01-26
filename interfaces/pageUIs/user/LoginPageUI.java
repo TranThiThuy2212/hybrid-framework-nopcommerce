@@ -1,4 +1,4 @@
-package pageUIs;
+package pageUIs.user;
 
 public class LoginPageUI {
     public static final String LOGIN_BUTTON="//button[text()='Log in']";

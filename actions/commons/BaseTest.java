@@ -10,7 +10,7 @@ import java.util.concurrent.TimeUnit;
 
 public class BaseTest {
     private WebDriver driverBaseTest;
-    private String projectPath=System.getProperty("user.dir");
+
     protected WebDriver getBrowserDriver(String browserName){
         System.out.println("Run on" + browserName);
         if(browserName.equals("firefox")){
@@ -27,7 +27,7 @@ public class BaseTest {
         }
         driverBaseTest.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         driverBaseTest.manage().window().maximize();
-        driverBaseTest.get("https://demo.nopcommerce.com/");
+        driverBaseTest.get(GlobalConstants.USER_PAGE_URL);
         return driverBaseTest;
     }
 

@@ -2,24 +2,23 @@ package com.nopcommerce.user;
 
 import commons.BaseTest;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
-import pageObjects.HomePageObject;
-import pageObjects.LoginPageObject;
-import pageObjects.RegisterPageObject;
+import pageObjects.user.UserHomePageObject;
+import pageObjects.user.UserLoginPageObject;
+import pageObjects.user.UserRegisterPageObject;
 
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
 public class Level_05_Page_Factory extends BaseTest {
     private WebDriver driver;
-    private HomePageObject homePage;
-    private RegisterPageObject registerPage;
-    private LoginPageObject loginPage;
+    private UserHomePageObject homePage;
+    private UserRegisterPageObject registerPage;
+    private UserLoginPageObject loginPage;
 
     private String firstName, lastName, password, Email,invalidEmail,foundEmail,incorrectPassword;
     private String projectPath=System.getProperty("user.dir");
@@ -39,12 +38,12 @@ public class Level_05_Page_Factory extends BaseTest {
         invalidEmail="123@456&&@@";
 
 
-        homePage =new HomePageObject(driver);
+        homePage =new UserHomePageObject(driver);
 
         System.out.println("Register_03 - Step_01: Click to Register link");
         homePage.clickToRegisterLink();
 
-        registerPage =new RegisterPageObject(driver);
+        registerPage =new UserRegisterPageObject(driver);
 
         System.out.println("Register_03 - Step_02: Input to required fields");
         registerPage.inputToFristnameTextbox(firstName);
@@ -68,7 +67,7 @@ public class Level_05_Page_Factory extends BaseTest {
     public void Login_01_Empty_Data(){
         homePage.clickToLoginLink();
 
-        loginPage=new LoginPageObject(driver);
+        loginPage=new UserLoginPageObject(driver);
         loginPage.clickToLoginButton();
 
         Assert.assertEquals(loginPage.getErrorMessageAtEmailTextbox(),"Please enter your email");
@@ -77,7 +76,7 @@ public class Level_05_Page_Factory extends BaseTest {
     public void Login_02_Invalid_Email(){
         homePage.clickToLoginLink();
 
-        loginPage=new LoginPageObject(driver);
+        loginPage=new UserLoginPageObject(driver);
         loginPage.inputToEmailTextbox(invalidEmail);
 
         loginPage.clickToLoginButton();
@@ -88,7 +87,7 @@ public class Level_05_Page_Factory extends BaseTest {
     public void Login_03_Email_Not_Found(){
         homePage.clickToLoginLink();
 
-        loginPage=new LoginPageObject(driver);
+        loginPage=new UserLoginPageObject(driver);
         loginPage.inputToEmailTextbox(foundEmail);
 
         loginPage.clickToLoginButton();
@@ -98,7 +97,7 @@ public class Level_05_Page_Factory extends BaseTest {
     public void Login_04_Exiting_Email_Empty_Password(){
         homePage.clickToLoginLink();
 
-        loginPage=new LoginPageObject(driver);
+        loginPage=new UserLoginPageObject(driver);
         loginPage.inputToEmailTextbox(Email);
         loginPage.inputToPasswordTextbox(" ");
 
@@ -109,7 +108,7 @@ public class Level_05_Page_Factory extends BaseTest {
     public void Login_05_Exiting_Email_Incorrect_Password(){
         homePage.clickToLoginLink();
 
-        loginPage=new LoginPageObject(driver);
+        loginPage=new UserLoginPageObject(driver);
         loginPage.inputToEmailTextbox(Email);
         loginPage.inputToPasswordTextbox(incorrectPassword);
         loginPage.clickToLoginButton();
@@ -119,7 +118,7 @@ public class Level_05_Page_Factory extends BaseTest {
     public void Login_06_Valid_Email_And_Password(){
         homePage.clickToLoginLink();
 
-        loginPage=new LoginPageObject(driver);
+        loginPage=new UserLoginPageObject(driver);
         loginPage.inputToEmailTextbox(Email);
         loginPage.inputToPasswordTextbox(password);
         loginPage.clickToLoginButton();
