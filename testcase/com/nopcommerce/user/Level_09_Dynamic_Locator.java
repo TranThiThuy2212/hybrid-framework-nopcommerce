@@ -81,6 +81,7 @@ public class Level_09_Dynamic_Locator extends BaseTest {
 
         userMyProductReviewPage.openPagesAtMyAccountByPageName(driver,"Addresses");
         userAddressPage= PageGenaratorManager.getUserAddressPage(driver);
+
     }
 
 
