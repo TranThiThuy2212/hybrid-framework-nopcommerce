@@ -1,4 +1,4 @@
-package com.jquery.datatable;
+package com.jquery;
 
 import commons.BaseTest;
 import org.openqa.selenium.WebDriver;
@@ -7,12 +7,11 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
-import pageObjects.jQuery.HomePageObject;
-import pageObjects.jQuery.PageGeneratorManager;
+import pageObjects.jQuery.DataTable.HomePageObject;
+import pageObjects.jQuery.DataTable.PageGeneratorManager;
 
 
 import java.util.List;
-import java.util.Random;
 
 public class Level_10_DataTable_DataGrid extends BaseTest {
     private WebDriver driver;
@@ -57,8 +56,6 @@ public class Level_10_DataTable_DataGrid extends BaseTest {
     public void Table_03_Get_All_Value_Rows(){
         actualAllCountryValue =homePage.getValueEachRowAtAllPage();
         Assert.assertEquals(actualAllCountryValue, expectedAllCountryValue);
-    }    public int ganarateNumber() {
-        return new Random().nextInt(9999);
     }
 
     @Test

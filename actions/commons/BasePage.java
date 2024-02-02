@@ -9,6 +9,7 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import pageObjects.nopCommerce.admin.AdminLoginPageObject;
 import pageObjects.nopCommerce.user.*;
+import pageUIs.jQuery.UploadFile.BasePageUIuploadFile;
 import pageUIs.nopCommerce.user.BasePageUI;
 
 import java.util.List;
@@ -320,6 +321,15 @@ public class BasePage {
             return false;
         }
     }
+    public boolean isImageLoaded(WebDriver driver, String locatorType, String... dynamicValues) {
+        JavascriptExecutor jsExecutor = (JavascriptExecutor) driver;
+        boolean status = (boolean) jsExecutor.executeScript("return arguments[0].complete && typeof arguments[0].naturalWidth != \"undefined\" && arguments[0].naturalWidth > 0", getWebElement(driver, getDYnamicXpath(locatorType,dynamicValues)));
+        if (status) {
+            return true;
+        } else {
+            return false;
+        }
+    }
     public void waitForElementVisibile(WebDriver driver, String locatorType){
         WebDriverWait explicitWait = new WebDriverWait(driver, longTimeout);
         explicitWait.until(ExpectedConditions.visibilityOfElementLocated(getByLocator(locatorType)));
@@ -362,6 +372,18 @@ public class BasePage {
     }
     private long longTimeout=30;
     private long shortTimeout=5;
+
+    public void uploadMultipleFiles(WebDriver driver, String... fileNames){
+        String filePath=GlobalConstants.UPLOAD_FILE_FOLDER;
+        String fullFileName="";
+        for(String file:fileNames){
+            fullFileName=fullFileName+filePath+file+"\n";
+        }
+        fullFileName=fullFileName.trim();
+        getWebElement(driver, BasePageUIuploadFile.UPLOAD_FILE).sendKeys(fullFileName);
+    }
+
+
 
     public UserAddressPageObject openAddressPage(WebDriver driver){
         waitForElementClickable(driver, BasePageUI.ADDRESS_LINK);
