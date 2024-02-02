@@ -7,9 +7,9 @@ import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import pageObject.admin.AdminLoginPageObject;
-import pageObjects.user.*;
-import pageUIs.user.BasePageUI;
+import pageObjects.nopCommerce.admin.AdminLoginPageObject;
+import pageObjects.nopCommerce.user.*;
+import pageUIs.nopCommerce.user.BasePageUI;
 
 import java.util.List;
 import java.util.Set;
@@ -86,7 +86,7 @@ public class BasePage {
         driver.switchTo().window(otherID);
     }
 
-    private By getByLocator(String locatorType){
+    public By getByLocator(String locatorType){
         By by = null;
         if(locatorType.startsWith("id=") || locatorType.startsWith("ID=")||locatorType.startsWith("Id=")){
             by = By.id(locatorType.substring(3));
@@ -103,16 +103,16 @@ public class BasePage {
         }
         return by;
     }
-    private String getDYnamicXpath(String locatorType, String... values) {
+    public String getDYnamicXpath(String locatorType, String... values) {
         if(locatorType.startsWith("xpath=")||locatorType.startsWith("XPATH=")||locatorType.startsWith("XPath=")||locatorType.startsWith("Xpath=")){
             locatorType = String.format(locatorType,(Object[]) values);
         }
         return locatorType;
     }
-    private WebElement getWebElement(WebDriver driver, String locatorType){
+    public WebElement getWebElement(WebDriver driver, String locatorType){
         return driver.findElement(getByLocator(locatorType));
     }
-    private List<WebElement> getListWebElement(WebDriver driver, String locatorType)
+    public List<WebElement> getListWebElement(WebDriver driver, String locatorType)
     {
         return driver.findElements(getByLocator(locatorType));
     }
@@ -140,11 +140,11 @@ public class BasePage {
     }
     public void selectItemInDefaultDropDown(WebDriver driver, String locatorType, String textItem){
         Select select = new Select(getWebElement(driver,locatorType));
-        select.deselectByValue(textItem);
+        select.selectByVisibleText(textItem);
     }
     public void selectItemInDefaultDropDown(WebDriver driver, String locatorType, String textItem, String... dynamicValues){
         Select select = new Select(getWebElement(driver,getDYnamicXpath(locatorType,dynamicValues)));
-        select.deselectByValue(textItem);
+        select.selectByVisibleText(textItem);
     }
     public String getSelectItemInDropDown(WebDriver driver, String locatorType){
         Select select = new Select(getWebElement(driver,locatorType));
@@ -203,8 +203,20 @@ public class BasePage {
             element.click();
         }
     }
+    public void checkToDefaultCheckboxRadio(WebDriver driver, String locatorType, String... dynamicValues){
+        WebElement element=getWebElement(driver,getDYnamicXpath(locatorType,dynamicValues));
+        if(!element.isSelected()){
+            element.click();
+        }
+    }
     public void uncheckToDefaultCheckbox(WebDriver driver, String locatorType){
         WebElement element=getWebElement(driver,locatorType);
+        if(element.isSelected()){
+            element.click();
+        }
+    }
+    public void uncheckToDefaultCheckbox(WebDriver driver, String locatorType, String... dynamicValues){
+        WebElement element=getWebElement(driver,getDYnamicXpath(locatorType,dynamicValues));
         if(element.isSelected()){
             element.click();
         }
@@ -230,6 +242,14 @@ public class BasePage {
     public void hoverMouseToElement(WebDriver driver, String locatorType){
         Actions action = new Actions(driver);
         action.moveToElement(getWebElement(driver,locatorType)).perform();
+    }
+    public void pressKeyToElement(WebDriver driver, String locatorType, Keys key) {
+        Actions action = new Actions(driver);
+        action.sendKeys(getWebElement(driver,locatorType),key).perform();
+    }
+    public void pressKeyToElement(WebDriver driver, String locatorType, Keys key, String... dynamicValues) {
+        Actions action = new Actions(driver);
+        action.sendKeys(getDYnamicXpath(locatorType,dynamicValues),key).perform();
     }
 
     public void scrollToBottomPage(WebDriver driver) {

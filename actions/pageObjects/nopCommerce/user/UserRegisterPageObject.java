@@ -1,8 +1,8 @@
-package pageObjects.user;
+package pageObjects.nopCommerce.user;
 
 import commons.BasePage;
 import org.openqa.selenium.WebDriver;
-import pageUIs.user.RegisterPageUI;
+import pageUIs.nopCommerce.user.RegisterPageUI;
 
 public class UserRegisterPageObject extends BasePage {
     private WebDriver driver;

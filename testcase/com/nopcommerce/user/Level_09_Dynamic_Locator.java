@@ -7,7 +7,8 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
-import pageObjects.user.*;
+import pageObjects.nopCommerce.user.*;
+
 
 import java.util.Random;
 
