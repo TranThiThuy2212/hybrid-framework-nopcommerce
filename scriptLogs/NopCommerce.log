@@ -1,0 +1,38 @@
+[2024-02-04 20:45:40,436 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Register - Step_01: Navigate to Register page
+[2024-02-04 20:45:41,613 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Register - Step_02: Input to first name text box isTran
+[2024-02-04 20:45:41,875 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Register - Step_03: Input to last name text box isThuy
+[2024-02-04 20:45:41,959 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Register - Step_04: Input to email text box isabc3232@gmail.com
+[2024-02-04 20:45:42,037 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Register - Step_05: Input to password text box is123456
+[2024-02-04 20:45:42,100 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Register - Step_06: Input to confirm password text box is123456
+[2024-02-04 20:45:42,179 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Register - Step_07: Click to Register button
+[2024-02-04 20:45:42,816 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Register - Step_08: veryfy register sucess message
+[2024-02-04 20:45:42,948 INFO com.nopcommerce.user.Level_14_Log_ReportNG] -  -------------------------- PASSED -------------------------- 
+[2024-02-04 20:45:42,949 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Register - Step_09: Click to continue button
+[2024-02-04 20:45:43,341 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Login - Step_01: Navigate to login page
+[2024-02-04 20:45:43,843 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Login - Step_02: Input to email text box isabc3232@gmail.com
+[2024-02-04 20:45:44,009 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Login - Step_03: Input to password text box is123456
+[2024-02-04 20:45:44,151 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Login - Step_04: Click to login button
+[2024-02-04 20:45:44,806 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Login - Step_05: veryfy my account link is displayed
+[2024-02-04 20:45:44,976 INFO com.nopcommerce.user.Level_14_Log_ReportNG] -  -------------------------- PASSED -------------------------- 
+[2024-02-04 20:45:44,977 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Login - Step_06: Navigate to My Account page
+[2024-02-04 20:45:45,352 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Login - Step_07: verify customer info page is displayed
+[2024-02-04 20:45:45,513 INFO com.nopcommerce.user.Level_14_Log_ReportNG] -  -------------------------- PASSED -------------------------- 
+[2024-02-04 21:06:30,205 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Register - Step_01: Navigate to Register page
+[2024-02-04 21:06:32,020 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Register - Step_02: Input to first name text box isTran
+[2024-02-04 21:06:32,287 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Register - Step_03: Input to last name text box isThuy
+[2024-02-04 21:06:32,387 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Register - Step_04: Input to email text box isabc6569@gmail.com
+[2024-02-04 21:06:32,479 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Register - Step_05: Input to password text box is123456
+[2024-02-04 21:06:32,548 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Register - Step_06: Input to confirm password text box is123456
+[2024-02-04 21:06:32,613 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Register - Step_07: Click to Register button
+[2024-02-04 21:06:33,254 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Register - Step_08: veryfy register sucess message
+[2024-02-04 21:06:33,382 INFO com.nopcommerce.user.Level_14_Log_ReportNG] -  -------------------------- PASSED -------------------------- 
+[2024-02-04 21:06:33,382 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Register - Step_09: Click to continue button
+[2024-02-04 21:06:33,767 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Login - Step_01: Navigate to login page
+[2024-02-04 21:06:34,234 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Login - Step_02: Input to email text box isabc6569@gmail.com
+[2024-02-04 21:06:34,354 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Login - Step_03: Input to password text box is123456
+[2024-02-04 21:06:34,413 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Login - Step_04: Click to login button
+[2024-02-04 21:06:35,009 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Login - Step_05: veryfy my account link is displayed
+[2024-02-04 21:06:35,191 INFO com.nopcommerce.user.Level_14_Log_ReportNG] -  -------------------------- PASSED -------------------------- 
+[2024-02-04 21:06:35,191 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Login - Step_06: Navigate to My Account page
+[2024-02-04 21:06:35,530 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Login - Step_07: verify customer info page is displayed
+[2024-02-04 21:06:35,653 INFO com.nopcommerce.user.Level_14_Log_ReportNG] -  -------------------------- PASSED -------------------------- 
