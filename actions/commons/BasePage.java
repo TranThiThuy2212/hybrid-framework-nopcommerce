@@ -14,6 +14,7 @@ import pageUIs.nopCommerce.user.BasePageUI;
 
 import java.util.List;
 import java.util.Set;
+import java.util.concurrent.TimeUnit;
 
 public class BasePage {
     public static BasePage getBasePageObject(){
@@ -225,6 +226,48 @@ public class BasePage {
     public boolean isElementDisplayed(WebDriver driver, String locatorType){
         return getWebElement(driver,locatorType).isDisplayed();
     }
+
+    public boolean isElementUndisplayed(WebDriver driver, String locatorType){
+        overrideImplicitTimeout(driver,shortTimeout);
+        List<WebElement> elements = getListWebElement(driver,locatorType);
+        overrideImplicitTimeout(driver,longTimeout);
+        if(elements.size()==0){
+            System.out.println("Element khong co trong DOM");
+            return true;
+        }
+        else if(elements.size()>0 && !elements.get(0).isDisplayed()){
+            System.out.println("Element co trong DOM nhung khong display");
+            return true;
+        }
+        else {
+            System.out.println("Element co trong DOM va display");
+            return false;
+        }
+    }
+
+    public boolean isElementUndisplayed(WebDriver driver, String locatorType, String... dynamicValues){
+        overrideImplicitTimeout(driver,shortTimeout);
+        List<WebElement> elements = getListWebElement(driver,getDYnamicXpath(locatorType,dynamicValues));
+        overrideImplicitTimeout(driver,longTimeout);
+        if(elements.size()==0){
+            System.out.println("Element khong co trong DOM");
+            return true;
+        }
+        else if(elements.size()>0 && !elements.get(0).isDisplayed()){
+            System.out.println("Element co trong DOM nhung khong display");
+            return true;
+        }
+        else {
+            System.out.println("Element co trong DOM va display");
+            return false;
+        }
+    }
+
+    public void overrideImplicitTimeout(WebDriver driver, long timeout) {
+        driver.manage().timeouts().implicitlyWait(timeout, TimeUnit.SECONDS);
+    }
+
+
     public boolean isElementDisplayed(WebDriver driver, String locatorType, String... dynamicValues){
         return getWebElement(driver,getDYnamicXpath(locatorType,dynamicValues)).isDisplayed();
     }
@@ -350,6 +393,15 @@ public class BasePage {
         WebDriverWait explicitWait = new WebDriverWait(driver, longTimeout);
         explicitWait.until(ExpectedConditions.invisibilityOfElementLocated(getByLocator(locatorType)));
     }
+    /*
+        Wait for element undisplayed in DOM or not in DOM and override implicit wait
+     */
+    public void waitForElementUndisplayed(WebDriver driver, String locatorType){
+        WebDriverWait explicitWait = new WebDriverWait(driver, shortTimeout);
+        overrideImplicitTimeout(driver,shortTimeout);
+        explicitWait.until(ExpectedConditions.invisibilityOfElementLocated(getByLocator(locatorType)));
+        overrideImplicitTimeout(driver,longTimeout);
+    }
     public void waitForElementInvisibile(WebDriver driver, String locatorType, String... dynamicValues){
         WebDriverWait explicitWait = new WebDriverWait(driver, longTimeout);
         explicitWait.until(ExpectedConditions.invisibilityOfElementLocated(getByLocator(getDYnamicXpath(locatorType,dynamicValues))));
@@ -370,8 +422,8 @@ public class BasePage {
         WebDriverWait explicitWait = new WebDriverWait(driver, longTimeout);
         explicitWait.until(ExpectedConditions.elementToBeClickable(getByLocator(getDYnamicXpath(locatorType,dynamicValues))));
     }
-    private long longTimeout=30;
-    private long shortTimeout=5;
+    private long longTimeout=GlobalConstants.LONG_TIMEOUT;
+    private long shortTimeout=GlobalConstants.SHORT_TIMEOUT;
 
     public void uploadMultipleFiles(WebDriver driver, String... fileNames){
         String filePath=GlobalConstants.UPLOAD_FILE_FOLDER;
