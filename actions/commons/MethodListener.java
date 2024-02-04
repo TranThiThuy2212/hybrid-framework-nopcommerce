@@ -1,5 +1,6 @@
 package commons;
 
+import java.rmi.server.RemoteServer;
 import java.util.List;
 
 import org.apache.commons.logging.Log;
