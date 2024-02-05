@@ -12,17 +12,73 @@
 <body>
 <h1>Run on Firefox</h1>
 <p>
-  Test duration: 14.771s
+  Test duration: 13.428s
 </p>
 
 
 
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header failed">Failed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">com.nopcommerce.user.Level_15_Allure</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  User_02_Login
+      </td>
+  <td class="duration">
+    1.309s
+  </td>
+  <td class="result">
+        
+    
+        
+
+        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: expected [false] but found [true]</b></a><br />
+    <div class="stackTrace" id="exception-0">
+              org.testng.Assert.fail(Assert.java:111)<br />
+              org.testng.Assert.failNotEquals(Assert.java:1578)<br />
+              org.testng.Assert.assertFalse(Assert.java:79)<br />
+              org.testng.Assert.assertFalse(Assert.java:89)<br />
+              com.nopcommerce.user.Level_15_Allure.User_02_Login(Level_15_Allure.java:82)<br />
+              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)<br />
+              java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.base/java.lang.reflect.Method.invoke(Method.java:568)<br />
+              org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)<br />
+              org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)<br />
+              org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)<br />
+              org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)<br />
+              org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)<br />
+              org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br />
+              java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:848)<br />
+              org.testng.TestRunner.run(TestRunner.java:621)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:443)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:336)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1200)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1114)<br />
+              org.testng.TestNG.run(TestNG.java:1082)<br />
+              com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)<br />
+              com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)<br />
+                </div>
+      </td>
+</tr>
+      </table>
 
 
   <table class="resultsTable">
     <tr><th colspan="3" class="header passed">Passed Tests</th></tr>
           <tr>
-        <td colspan="3" class="group">com.nopcommerce.user.Level_14_Log_ReportNG</td>
+        <td colspan="3" class="group">com.nopcommerce.user.Level_15_Allure</td>
       </tr>
             
 <tr>
@@ -30,68 +86,12 @@
                   User_01_Register
       </td>
   <td class="duration">
-    3.553s
+    3.103s
   </td>
   <td class="result">
         
     
-            <div class="testOutput">
-                        [2024-02-04 21:06:30,205 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Register - Step_01: Navigate to Register page<br/>
-<br />
-                                [2024-02-04 21:06:32,020 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Register - Step_02: Input to first name text box isTran<br/>
-<br />
-                                [2024-02-04 21:06:32,287 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Register - Step_03: Input to last name text box isThuy<br/>
-<br />
-                                [2024-02-04 21:06:32,387 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Register - Step_04: Input to email text box isabc6569@gmail.com<br/>
-<br />
-                                [2024-02-04 21:06:32,479 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Register - Step_05: Input to password text box is123456<br/>
-<br />
-                                [2024-02-04 21:06:32,548 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Register - Step_06: Input to confirm password text box is123456<br/>
-<br />
-                                [2024-02-04 21:06:32,613 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Register - Step_07: Click to Register button<br/>
-<br />
-                                [2024-02-04 21:06:33,254 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Register - Step_08: veryfy register sucess message<br/>
-<br />
-                                [2024-02-04 21:06:33,382 INFO com.nopcommerce.user.Level_14_Log_ReportNG] -&nbsp; -------------------------- PASSED -------------------------- <br/>
-<br />
-                                [2024-02-04 21:06:33,382 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Register - Step_09: Click to continue button<br/>
-<br />
-                  </div>
-    
-
-      </td>
-</tr>
-<tr>
-  <td class="method">
-                  User_02_Login
-      </td>
-  <td class="duration">
-    1.886s
-  </td>
-  <td class="result">
         
-    
-            <div class="testOutput">
-                        [2024-02-04 21:06:33,767 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Login - Step_01: Navigate to login page<br/>
-<br />
-                                [2024-02-04 21:06:34,234 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Login - Step_02: Input to email text box isabc6569@gmail.com<br/>
-<br />
-                                [2024-02-04 21:06:34,354 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Login - Step_03: Input to password text box is123456<br/>
-<br />
-                                [2024-02-04 21:06:34,413 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Login - Step_04: Click to login button<br/>
-<br />
-                                [2024-02-04 21:06:35,009 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Login - Step_05: veryfy my account link is displayed<br/>
-<br />
-                                [2024-02-04 21:06:35,191 INFO com.nopcommerce.user.Level_14_Log_ReportNG] -&nbsp; -------------------------- PASSED -------------------------- <br/>
-<br />
-                                [2024-02-04 21:06:35,191 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Login - Step_06: Navigate to My Account page<br/>
-<br />
-                                [2024-02-04 21:06:35,530 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Login - Step_07: verify customer info page is displayed<br/>
-<br />
-                                [2024-02-04 21:06:35,653 INFO com.nopcommerce.user.Level_14_Log_ReportNG] -&nbsp; -------------------------- PASSED -------------------------- <br/>
-<br />
-                  </div>
-    
 
       </td>
 </tr>

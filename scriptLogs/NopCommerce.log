@@ -36,3 +36,167 @@
 [2024-02-04 21:06:35,191 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Login - Step_06: Navigate to My Account page
 [2024-02-04 21:06:35,530 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Login - Step_07: verify customer info page is displayed
 [2024-02-04 21:06:35,653 INFO com.nopcommerce.user.Level_14_Log_ReportNG] -  -------------------------- PASSED -------------------------- 
+[2024-02-04 22:59:18,947 INFO com.nopcommerce.user.Level_15_ReportNG_Screenshot] - Register - Step_01: Navigate to Register page
+[2024-02-04 22:59:20,033 INFO com.nopcommerce.user.Level_15_ReportNG_Screenshot] - Register - Step_02: Input to first name text box isTran
+[2024-02-04 22:59:20,556 INFO com.nopcommerce.user.Level_15_ReportNG_Screenshot] - Register - Step_03: Input to last name text box isThuy
+[2024-02-04 22:59:20,734 INFO com.nopcommerce.user.Level_15_ReportNG_Screenshot] - Register - Step_04: Input to email text box isabc9658@gmail.com
+[2024-02-04 22:59:20,804 INFO com.nopcommerce.user.Level_15_ReportNG_Screenshot] - Register - Step_05: Input to password text box is123456
+[2024-02-04 22:59:20,863 INFO com.nopcommerce.user.Level_15_ReportNG_Screenshot] - Register - Step_06: Input to confirm password text box is123456
+[2024-02-04 22:59:20,934 INFO com.nopcommerce.user.Level_15_ReportNG_Screenshot] - Register - Step_07: Click to Register button
+[2024-02-04 22:59:21,625 INFO com.nopcommerce.user.Level_15_ReportNG_Screenshot] - Register - Step_08: veryfy register sucess message
+[2024-02-04 22:59:21,824 INFO com.nopcommerce.user.Level_15_ReportNG_Screenshot] -  -------------------------- FAILED -------------------------- 
+[2024-02-04 22:59:21,825 INFO com.nopcommerce.user.Level_15_ReportNG_Screenshot] - Register - Step_09: Click to continue button
+[2024-02-04 22:59:22,904 INFO com.nopcommerce.user.Level_15_ReportNG_Screenshot] - Login - Step_01: Navigate to login page
+[2024-02-04 22:59:23,327 INFO com.nopcommerce.user.Level_15_ReportNG_Screenshot] - Login - Step_02: Input to email text box isabc9658@gmail.com
+[2024-02-04 22:59:23,483 INFO com.nopcommerce.user.Level_15_ReportNG_Screenshot] - Login - Step_03: Input to password text box is123456
+[2024-02-04 22:59:23,561 INFO com.nopcommerce.user.Level_15_ReportNG_Screenshot] - Login - Step_04: Click to login button
+[2024-02-04 22:59:24,226 INFO com.nopcommerce.user.Level_15_ReportNG_Screenshot] - Login - Step_05: veryfy my account link is displayed
+[2024-02-04 22:59:24,491 INFO com.nopcommerce.user.Level_15_ReportNG_Screenshot] -  -------------------------- FAILED -------------------------- 
+[2024-02-04 22:59:24,491 INFO com.nopcommerce.user.Level_15_ReportNG_Screenshot] - Login - Step_06: Navigate to My Account page
+[2024-02-04 22:59:24,968 INFO com.nopcommerce.user.Level_15_ReportNG_Screenshot] - Login - Step_07: verify customer info page is displayed
+[2024-02-04 22:59:25,094 INFO com.nopcommerce.user.Level_15_ReportNG_Screenshot] -  -------------------------- FAILED -------------------------- 
+[2024-02-04 23:06:38,033 INFO com.nopcommerce.user.Level_15_ReportNG_Screenshot] - Register - Step_01: Navigate to Register page
+[2024-02-04 23:06:39,133 INFO com.nopcommerce.user.Level_15_ReportNG_Screenshot] - Register - Step_02: Input to first name text box isTran
+[2024-02-04 23:06:39,391 INFO com.nopcommerce.user.Level_15_ReportNG_Screenshot] - Register - Step_03: Input to last name text box isThuy
+[2024-02-04 23:06:39,459 INFO com.nopcommerce.user.Level_15_ReportNG_Screenshot] - Register - Step_04: Input to email text box isabc1479@gmail.com
+[2024-02-04 23:06:39,527 INFO com.nopcommerce.user.Level_15_ReportNG_Screenshot] - Register - Step_05: Input to password text box is123456
+[2024-02-04 23:06:39,581 INFO com.nopcommerce.user.Level_15_ReportNG_Screenshot] - Register - Step_06: Input to confirm password text box is123456
+[2024-02-04 23:06:39,645 INFO com.nopcommerce.user.Level_15_ReportNG_Screenshot] - Register - Step_07: Click to Register button
+[2024-02-04 23:06:40,310 INFO com.nopcommerce.user.Level_15_ReportNG_Screenshot] - Register - Step_08: veryfy register sucess message
+[2024-02-04 23:06:40,420 INFO com.nopcommerce.user.Level_15_ReportNG_Screenshot] - Register - Step_09: Click to continue button
+[2024-02-04 23:06:40,852 INFO com.nopcommerce.user.Level_15_ReportNG_Screenshot] - Login - Step_01: Navigate to login page
+[2024-02-04 23:06:41,529 INFO com.nopcommerce.user.Level_15_ReportNG_Screenshot] - Login - Step_02: Input to email text box isabc1479@gmail.com
+[2024-02-04 23:06:41,666 INFO com.nopcommerce.user.Level_15_ReportNG_Screenshot] - Login - Step_03: Input to password text box is123456
+[2024-02-04 23:06:41,739 INFO com.nopcommerce.user.Level_15_ReportNG_Screenshot] - Login - Step_04: Click to login button
+[2024-02-04 23:06:42,421 INFO com.nopcommerce.user.Level_15_ReportNG_Screenshot] - Login - Step_05: veryfy my account link is displayed
+[2024-02-04 23:13:23,588 INFO com.nopcommerce.user.Level_15_ReportNG_Screenshot] - Register - Step_01: Navigate to Register page
+[2024-02-04 23:13:24,895 INFO com.nopcommerce.user.Level_15_ReportNG_Screenshot] - Register - Step_02: Input to first name text box isTran
+[2024-02-04 23:13:25,180 INFO com.nopcommerce.user.Level_15_ReportNG_Screenshot] - Register - Step_03: Input to last name text box isThuy
+[2024-02-04 23:13:25,293 INFO com.nopcommerce.user.Level_15_ReportNG_Screenshot] - Register - Step_04: Input to email text box isabc2825@gmail.com
+[2024-02-04 23:13:25,373 INFO com.nopcommerce.user.Level_15_ReportNG_Screenshot] - Register - Step_05: Input to password text box is123456
+[2024-02-04 23:13:25,439 INFO com.nopcommerce.user.Level_15_ReportNG_Screenshot] - Register - Step_06: Input to confirm password text box is123456
+[2024-02-04 23:13:25,534 INFO com.nopcommerce.user.Level_15_ReportNG_Screenshot] - Register - Step_07: Click to Register button
+[2024-02-04 23:13:26,124 INFO com.nopcommerce.user.Level_15_ReportNG_Screenshot] - Register - Step_08: veryfy register sucess message
+[2024-02-04 23:13:26,287 INFO com.nopcommerce.user.Level_15_ReportNG_Screenshot] - Register - Step_09: Click to continue button
+[2024-02-04 23:13:26,651 INFO com.nopcommerce.user.Level_15_ReportNG_Screenshot] - Login - Step_01: Navigate to login page
+[2024-02-04 23:13:27,130 INFO com.nopcommerce.user.Level_15_ReportNG_Screenshot] - Login - Step_02: Input to email text box isabc2825@gmail.com
+[2024-02-04 23:13:27,242 INFO com.nopcommerce.user.Level_15_ReportNG_Screenshot] - Login - Step_03: Input to password text box is123456
+[2024-02-04 23:13:27,311 INFO com.nopcommerce.user.Level_15_ReportNG_Screenshot] - Login - Step_04: Click to login button
+[2024-02-04 23:13:27,904 INFO com.nopcommerce.user.Level_15_ReportNG_Screenshot] - Login - Step_05: veryfy my account link is displayed
+[2024-02-04 23:16:47,854 INFO com.nopcommerce.user.Level_15_ReportNG_Screenshot] - Register - Step_01: Navigate to Register page
+[2024-02-04 23:16:48,954 INFO com.nopcommerce.user.Level_15_ReportNG_Screenshot] - Register - Step_02: Input to first name text box isTran
+[2024-02-04 23:16:49,160 INFO com.nopcommerce.user.Level_15_ReportNG_Screenshot] - Register - Step_03: Input to last name text box isThuy
+[2024-02-04 23:16:49,256 INFO com.nopcommerce.user.Level_15_ReportNG_Screenshot] - Register - Step_04: Input to email text box isabc4759@gmail.com
+[2024-02-04 23:16:49,315 INFO com.nopcommerce.user.Level_15_ReportNG_Screenshot] - Register - Step_05: Input to password text box is123456
+[2024-02-04 23:16:49,378 INFO com.nopcommerce.user.Level_15_ReportNG_Screenshot] - Register - Step_06: Input to confirm password text box is123456
+[2024-02-04 23:16:49,458 INFO com.nopcommerce.user.Level_15_ReportNG_Screenshot] - Register - Step_07: Click to Register button
+[2024-02-04 23:16:50,062 INFO com.nopcommerce.user.Level_15_ReportNG_Screenshot] - Register - Step_08: veryfy register sucess message
+[2024-02-04 23:16:50,173 INFO com.nopcommerce.user.Level_15_ReportNG_Screenshot] - Register - Step_09: Click to continue button
+[2024-02-04 23:16:50,512 INFO com.nopcommerce.user.Level_15_ReportNG_Screenshot] - Login - Step_01: Navigate to login page
+[2024-02-04 23:16:50,943 INFO com.nopcommerce.user.Level_15_ReportNG_Screenshot] - Login - Step_02: Input to email text box isabc4759@gmail.com
+[2024-02-04 23:16:51,053 INFO com.nopcommerce.user.Level_15_ReportNG_Screenshot] - Login - Step_03: Input to password text box is123456
+[2024-02-04 23:16:51,127 INFO com.nopcommerce.user.Level_15_ReportNG_Screenshot] - Login - Step_04: Click to login button
+[2024-02-04 23:16:51,705 INFO com.nopcommerce.user.Level_15_ReportNG_Screenshot] - Login - Step_05: veryfy my account link is displayed
+[2024-02-04 23:18:31,146 INFO com.nopcommerce.user.Level_15_ReportNG_Screenshot] - Register - Step_01: Navigate to Register page
+[2024-02-04 23:18:32,158 INFO com.nopcommerce.user.Level_15_ReportNG_Screenshot] - Register - Step_02: Input to first name text box isTran
+[2024-02-04 23:18:32,342 INFO com.nopcommerce.user.Level_15_ReportNG_Screenshot] - Register - Step_03: Input to last name text box isThuy
+[2024-02-04 23:18:32,441 INFO com.nopcommerce.user.Level_15_ReportNG_Screenshot] - Register - Step_04: Input to email text box isabc585@gmail.com
+[2024-02-04 23:18:32,503 INFO com.nopcommerce.user.Level_15_ReportNG_Screenshot] - Register - Step_05: Input to password text box is123456
+[2024-02-04 23:18:32,561 INFO com.nopcommerce.user.Level_15_ReportNG_Screenshot] - Register - Step_06: Input to confirm password text box is123456
+[2024-02-04 23:18:32,613 INFO com.nopcommerce.user.Level_15_ReportNG_Screenshot] - Register - Step_07: Click to Register button
+[2024-02-04 23:18:33,207 INFO com.nopcommerce.user.Level_15_ReportNG_Screenshot] - Register - Step_08: veryfy register sucess message
+[2024-02-04 23:18:33,334 INFO com.nopcommerce.user.Level_15_ReportNG_Screenshot] - Register - Step_09: Click to continue button
+[2024-02-04 23:18:33,671 INFO com.nopcommerce.user.Level_15_ReportNG_Screenshot] - Login - Step_01: Navigate to login page
+[2024-02-04 23:18:34,089 INFO com.nopcommerce.user.Level_15_ReportNG_Screenshot] - Login - Step_02: Input to email text box isabc585@gmail.com
+[2024-02-04 23:18:34,193 INFO com.nopcommerce.user.Level_15_ReportNG_Screenshot] - Login - Step_03: Input to password text box is123456
+[2024-02-04 23:18:34,251 INFO com.nopcommerce.user.Level_15_ReportNG_Screenshot] - Login - Step_04: Click to login button
+[2024-02-04 23:18:34,791 INFO com.nopcommerce.user.Level_15_ReportNG_Screenshot] - Login - Step_05: veryfy my account link is displayed
+[2024-02-05 14:18:53,542 INFO com.nopcommerce.user.Level_15_ReportNG_Screenshot] - Register - Step_01: Navigate to Register page
+[2024-02-05 14:18:54,627 INFO com.nopcommerce.user.Level_15_ReportNG_Screenshot] - Register - Step_02: Input to first name text box isTran
+[2024-02-05 14:18:54,915 INFO com.nopcommerce.user.Level_15_ReportNG_Screenshot] - Register - Step_03: Input to last name text box isThuy
+[2024-02-05 14:18:54,992 INFO com.nopcommerce.user.Level_15_ReportNG_Screenshot] - Register - Step_04: Input to email text box isabc3369@gmail.com
+[2024-02-05 14:18:55,060 INFO com.nopcommerce.user.Level_15_ReportNG_Screenshot] - Register - Step_05: Input to password text box is123456
+[2024-02-05 14:18:55,119 INFO com.nopcommerce.user.Level_15_ReportNG_Screenshot] - Register - Step_06: Input to confirm password text box is123456
+[2024-02-05 14:18:55,192 INFO com.nopcommerce.user.Level_15_ReportNG_Screenshot] - Register - Step_07: Click to Register button
+[2024-02-05 14:18:55,890 INFO com.nopcommerce.user.Level_15_ReportNG_Screenshot] - Register - Step_08: veryfy register sucess message
+[2024-02-05 14:18:56,022 INFO com.nopcommerce.user.Level_15_ReportNG_Screenshot] - Register - Step_09: Click to continue button
+[2024-02-05 14:18:56,389 INFO com.nopcommerce.user.Level_15_ReportNG_Screenshot] - Login - Step_01: Navigate to login page
+[2024-02-05 14:18:56,978 INFO com.nopcommerce.user.Level_15_ReportNG_Screenshot] - Login - Step_02: Input to email text box isabc3369@gmail.com
+[2024-02-05 14:18:57,083 INFO com.nopcommerce.user.Level_15_ReportNG_Screenshot] - Login - Step_03: Input to password text box is123456
+[2024-02-05 14:18:57,158 INFO com.nopcommerce.user.Level_15_ReportNG_Screenshot] - Login - Step_04: Click to login button
+[2024-02-05 14:18:57,786 INFO com.nopcommerce.user.Level_15_ReportNG_Screenshot] - Login - Step_05: veryfy my account link is displayed
+[2024-02-05 15:38:42,986 INFO com.nopcommerce.user.Level_15_Extend_Screenshort] - Register - Step_01: Navigate to Register page
+[2024-02-05 15:38:44,153 INFO com.nopcommerce.user.Level_15_Extend_Screenshort] - Register - Step_02: Input to first name text box isTran
+[2024-02-05 15:38:44,433 INFO com.nopcommerce.user.Level_15_Extend_Screenshort] - Register - Step_03: Input to last name text box isThuy
+[2024-02-05 15:38:44,519 INFO com.nopcommerce.user.Level_15_Extend_Screenshort] - Register - Step_04: Input to email text box isabc8456@gmail.com
+[2024-02-05 15:38:44,597 INFO com.nopcommerce.user.Level_15_Extend_Screenshort] - Register - Step_05: Input to password text box is123456
+[2024-02-05 15:38:44,662 INFO com.nopcommerce.user.Level_15_Extend_Screenshort] - Register - Step_06: Input to confirm password text box is123456
+[2024-02-05 15:38:44,731 INFO com.nopcommerce.user.Level_15_Extend_Screenshort] - Register - Step_07: Click to Register button
+[2024-02-05 15:38:45,402 INFO com.nopcommerce.user.Level_15_Extend_Screenshort] - Register - Step_08: veryfy register sucess message
+[2024-02-05 15:38:45,563 INFO com.nopcommerce.user.Level_15_Extend_Screenshort] -  -------------------------- PASSED -------------------------- 
+[2024-02-05 15:38:45,564 INFO com.nopcommerce.user.Level_15_Extend_Screenshort] - Register - Step_09: Click to continue button
+[2024-02-05 15:38:45,948 INFO com.nopcommerce.user.Level_15_Extend_Screenshort] - Login - Step_01: Navigate to login page
+[2024-02-05 15:38:46,403 INFO com.nopcommerce.user.Level_15_Extend_Screenshort] - Login - Step_02: Input to email text box isabc8456@gmail.com
+[2024-02-05 15:38:46,504 INFO com.nopcommerce.user.Level_15_Extend_Screenshort] - Login - Step_03: Input to password text box is123456
+[2024-02-05 15:38:46,566 INFO com.nopcommerce.user.Level_15_Extend_Screenshort] - Login - Step_04: Click to login button
+[2024-02-05 15:38:47,151 INFO com.nopcommerce.user.Level_15_Extend_Screenshort] - Login - Step_05: veryfy my account link is displayed
+[2024-02-05 15:38:47,294 INFO com.nopcommerce.user.Level_15_Extend_Screenshort] -  -------------------------- PASSED -------------------------- 
+[2024-02-05 15:38:47,294 INFO com.nopcommerce.user.Level_15_Extend_Screenshort] - Login - Step_06: Navigate to My Account page
+[2024-02-05 15:38:47,615 INFO com.nopcommerce.user.Level_15_Extend_Screenshort] - Login - Step_07: verify customer info page is displayed
+[2024-02-05 15:38:47,713 INFO com.nopcommerce.user.Level_15_Extend_Screenshort] -  -------------------------- PASSED -------------------------- 
+[2024-02-05 15:40:29,398 INFO com.nopcommerce.user.Level_15_Extend_Screenshort] - Register - Step_01: Navigate to Register page
+[2024-02-05 15:40:30,444 INFO com.nopcommerce.user.Level_15_Extend_Screenshort] - Register - Step_02: Input to first name text box isTran
+[2024-02-05 15:40:30,645 INFO com.nopcommerce.user.Level_15_Extend_Screenshort] - Register - Step_03: Input to last name text box isThuy
+[2024-02-05 15:40:30,722 INFO com.nopcommerce.user.Level_15_Extend_Screenshort] - Register - Step_04: Input to email text box isabc3740@gmail.com
+[2024-02-05 15:40:30,787 INFO com.nopcommerce.user.Level_15_Extend_Screenshort] - Register - Step_05: Input to password text box is123456
+[2024-02-05 15:40:30,854 INFO com.nopcommerce.user.Level_15_Extend_Screenshort] - Register - Step_06: Input to confirm password text box is123456
+[2024-02-05 15:40:30,964 INFO com.nopcommerce.user.Level_15_Extend_Screenshort] - Register - Step_07: Click to Register button
+[2024-02-05 15:40:31,619 INFO com.nopcommerce.user.Level_15_Extend_Screenshort] - Register - Step_08: veryfy register sucess message
+[2024-02-05 15:40:31,754 INFO com.nopcommerce.user.Level_15_Extend_Screenshort] - Register - Step_09: Click to continue button
+[2024-02-05 15:40:32,101 INFO com.nopcommerce.user.Level_15_Extend_Screenshort] - Login - Step_01: Navigate to login page
+[2024-02-05 15:40:32,547 INFO com.nopcommerce.user.Level_15_Extend_Screenshort] - Login - Step_02: Input to email text box isabc3740@gmail.com
+[2024-02-05 15:40:32,650 INFO com.nopcommerce.user.Level_15_Extend_Screenshort] - Login - Step_03: Input to password text box is123456
+[2024-02-05 15:40:32,733 INFO com.nopcommerce.user.Level_15_Extend_Screenshort] - Login - Step_04: Click to login button
+[2024-02-05 15:40:33,281 INFO com.nopcommerce.user.Level_15_Extend_Screenshort] - Login - Step_05: veryfy my account link is displayed
+[2024-02-05 15:42:07,764 INFO com.nopcommerce.user.Level_15_Extend_Screenshort] - Register - Step_01: Navigate to Register page
+[2024-02-05 15:42:08,292 INFO com.nopcommerce.user.Level_15_Extend_Screenshort] - Register - Step_02: Input to first name text box isTran
+[2024-02-05 15:42:08,475 INFO com.nopcommerce.user.Level_15_Extend_Screenshort] - Register - Step_03: Input to last name text box isThuy
+[2024-02-05 15:42:08,605 INFO com.nopcommerce.user.Level_15_Extend_Screenshort] - Register - Step_04: Input to email text box isabc2128@gmail.com
+[2024-02-05 15:42:08,691 INFO com.nopcommerce.user.Level_15_Extend_Screenshort] - Register - Step_05: Input to password text box is123456
+[2024-02-05 15:42:08,756 INFO com.nopcommerce.user.Level_15_Extend_Screenshort] - Register - Step_06: Input to confirm password text box is123456
+[2024-02-05 15:42:08,822 INFO com.nopcommerce.user.Level_15_Extend_Screenshort] - Register - Step_07: Click to Register button
+[2024-02-05 15:42:09,401 INFO com.nopcommerce.user.Level_15_Extend_Screenshort] - Register - Step_08: veryfy register sucess message
+[2024-02-05 15:42:09,530 INFO com.nopcommerce.user.Level_15_Extend_Screenshort] - Register - Step_09: Click to continue button
+[2024-02-05 15:42:09,862 INFO com.nopcommerce.user.Level_15_Extend_Screenshort] - Login - Step_01: Navigate to login page
+[2024-02-05 15:42:10,293 INFO com.nopcommerce.user.Level_15_Extend_Screenshort] - Login - Step_02: Input to email text box isabc2128@gmail.com
+[2024-02-05 15:42:10,390 INFO com.nopcommerce.user.Level_15_Extend_Screenshort] - Login - Step_03: Input to password text box is123456
+[2024-02-05 15:42:10,460 INFO com.nopcommerce.user.Level_15_Extend_Screenshort] - Login - Step_04: Click to login button
+[2024-02-05 15:42:10,982 INFO com.nopcommerce.user.Level_15_Extend_Screenshort] - Login - Step_05: veryfy my account link is displayed
+[2024-02-05 16:09:08,035 INFO com.nopcommerce.user.Level_15_Extend_Screenshort] - Register - Step_01: Navigate to Register page
+[2024-02-05 16:09:09,157 INFO com.nopcommerce.user.Level_15_Extend_Screenshort] - Register - Step_02: Input to first name text box isTran
+[2024-02-05 16:09:09,402 INFO com.nopcommerce.user.Level_15_Extend_Screenshort] - Register - Step_03: Input to last name text box isThuy
+[2024-02-05 16:09:09,485 INFO com.nopcommerce.user.Level_15_Extend_Screenshort] - Register - Step_04: Input to email text box isabc6932@gmail.com
+[2024-02-05 16:09:09,558 INFO com.nopcommerce.user.Level_15_Extend_Screenshort] - Register - Step_05: Input to password text box is123456
+[2024-02-05 16:09:09,635 INFO com.nopcommerce.user.Level_15_Extend_Screenshort] - Register - Step_06: Input to confirm password text box is123456
+[2024-02-05 16:09:09,696 INFO com.nopcommerce.user.Level_15_Extend_Screenshort] - Register - Step_07: Click to Register button
+[2024-02-05 16:09:10,330 INFO com.nopcommerce.user.Level_15_Extend_Screenshort] - Register - Step_08: veryfy register sucess message
+[2024-02-05 16:09:10,445 INFO com.nopcommerce.user.Level_15_Extend_Screenshort] - Register - Step_09: Click to continue button
+[2024-02-05 16:09:10,795 INFO com.nopcommerce.user.Level_15_Extend_Screenshort] - Login - Step_01: Navigate to login page
+[2024-02-05 16:09:11,229 INFO com.nopcommerce.user.Level_15_Extend_Screenshort] - Login - Step_02: Input to email text box isabc6932@gmail.com
+[2024-02-05 16:09:11,377 INFO com.nopcommerce.user.Level_15_Extend_Screenshort] - Login - Step_03: Input to password text box is123456
+[2024-02-05 16:09:11,466 INFO com.nopcommerce.user.Level_15_Extend_Screenshort] - Login - Step_04: Click to login button
+[2024-02-05 16:09:12,150 INFO com.nopcommerce.user.Level_15_Extend_Screenshort] - Login - Step_05: veryfy my account link is displayed
+[2024-02-05 16:10:13,621 INFO com.nopcommerce.user.Level_15_Extend_Screenshort] - Register - Step_01: Navigate to Register page
+[2024-02-05 16:10:14,748 INFO com.nopcommerce.user.Level_15_Extend_Screenshort] - Register - Step_02: Input to first name text box isTran
+[2024-02-05 16:10:14,986 INFO com.nopcommerce.user.Level_15_Extend_Screenshort] - Register - Step_03: Input to last name text box isThuy
+[2024-02-05 16:10:15,076 INFO com.nopcommerce.user.Level_15_Extend_Screenshort] - Register - Step_04: Input to email text box isabc3577@gmail.com
+[2024-02-05 16:10:15,158 INFO com.nopcommerce.user.Level_15_Extend_Screenshort] - Register - Step_05: Input to password text box is123456
+[2024-02-05 16:10:15,219 INFO com.nopcommerce.user.Level_15_Extend_Screenshort] - Register - Step_06: Input to confirm password text box is123456
+[2024-02-05 16:10:15,283 INFO com.nopcommerce.user.Level_15_Extend_Screenshort] - Register - Step_07: Click to Register button
+[2024-02-05 16:10:15,883 INFO com.nopcommerce.user.Level_15_Extend_Screenshort] - Register - Step_08: veryfy register sucess message
+[2024-02-05 16:10:15,996 INFO com.nopcommerce.user.Level_15_Extend_Screenshort] - Register - Step_09: Click to continue button
+[2024-02-05 16:10:16,345 INFO com.nopcommerce.user.Level_15_Extend_Screenshort] - Login - Step_01: Navigate to login page
+[2024-02-05 16:10:16,789 INFO com.nopcommerce.user.Level_15_Extend_Screenshort] - Login - Step_02: Input to email text box isabc3577@gmail.com
+[2024-02-05 16:10:16,890 INFO com.nopcommerce.user.Level_15_Extend_Screenshort] - Login - Step_03: Input to password text box is123456
+[2024-02-05 16:10:16,949 INFO com.nopcommerce.user.Level_15_Extend_Screenshort] - Login - Step_04: Click to login button
+[2024-02-05 16:10:17,498 INFO com.nopcommerce.user.Level_15_Extend_Screenshort] - Login - Step_05: veryfy my account link is displayed

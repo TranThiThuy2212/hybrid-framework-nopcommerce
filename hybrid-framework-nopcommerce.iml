@@ -35,5 +35,12 @@
     <orderEntry type="library" name="log4j-api-2.19.0 (2)" level="project" />
     <orderEntry type="library" name="log4j" level="project" />
     <orderEntry type="library" name="commons-collections-3.2.1" level="project" />
+    <orderEntry type="library" name="ExtentV2" level="project" />
+    <orderEntry type="library" name="ExtendV3" level="project" />
+    <orderEntry type="library" name="ExtendV4" level="project" />
+    <orderEntry type="library" name="ExtendV4 (2)" level="project" />
+    <orderEntry type="library" name="ExtendV5" level="project" />
+    <orderEntry type="library" name="Allure" level="project" />
+    <orderEntry type="library" name="aspectjweaver-1.9.20" level="project" />
   </component>
 </module>
