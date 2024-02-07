@@ -1,0 +1,3 @@
+[2024-02-06 22:59:40,991 INFO com.nopcommerce.user.Level_16_Share_Data_Cookie] - Pre-Condition - Step_01: Navigate to login page
+[2024-02-06 22:59:41,634 INFO com.nopcommerce.user.Level_16_Share_Data_Cookie] - Pre-Condition - Step_02: Set cookie and reload page
+[2024-02-06 22:59:45,125 INFO com.nopcommerce.user.Level_16_Share_Data_Cookie] - Login - Step_03: verify my account link is displayed

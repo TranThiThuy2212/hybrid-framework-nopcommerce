@@ -1,0 +1,32 @@
+<component name="libraryTable">
+  <library name="labWebDriverManager">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../NopCommerce/NopCommerce/labWebDriverManager/bcpkix-jdk18on-1.76.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../NopCommerce/NopCommerce/labWebDriverManager/bcprov-jdk18on-1.76.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../NopCommerce/NopCommerce/labWebDriverManager/bcutil-jdk18on-1.76.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../NopCommerce/NopCommerce/labWebDriverManager/commons-compress-1.24.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../NopCommerce/NopCommerce/labWebDriverManager/commons-io-2.13.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../NopCommerce/NopCommerce/labWebDriverManager/commons-lang3-3.13.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../NopCommerce/NopCommerce/labWebDriverManager/dec-0.1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../NopCommerce/NopCommerce/labWebDriverManager/docker-java-3.3.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../NopCommerce/NopCommerce/labWebDriverManager/docker-java-api-3.3.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../NopCommerce/NopCommerce/labWebDriverManager/docker-java-core-3.3.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../NopCommerce/NopCommerce/labWebDriverManager/docker-java-transport-3.3.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../NopCommerce/NopCommerce/labWebDriverManager/docker-java-transport-httpclient5-3.3.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../NopCommerce/NopCommerce/labWebDriverManager/gson-2.10.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../NopCommerce/NopCommerce/labWebDriverManager/guava-19.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../NopCommerce/NopCommerce/labWebDriverManager/httpclient5-5.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../NopCommerce/NopCommerce/labWebDriverManager/httpcore5-5.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../NopCommerce/NopCommerce/labWebDriverManager/httpcore5-h2-5.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../NopCommerce/NopCommerce/labWebDriverManager/jackson-annotations-2.10.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../NopCommerce/NopCommerce/labWebDriverManager/jackson-core-2.10.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../NopCommerce/NopCommerce/labWebDriverManager/jackson-databind-2.10.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../NopCommerce/NopCommerce/labWebDriverManager/jcl-over-slf4j-1.7.30.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../NopCommerce/NopCommerce/labWebDriverManager/jna-5.13.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../NopCommerce/NopCommerce/labWebDriverManager/slf4j-api-2.0.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../NopCommerce/NopCommerce/labWebDriverManager/webdrivermanager-5.6.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

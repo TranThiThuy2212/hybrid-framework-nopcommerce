@@ -200,3 +200,45 @@
 [2024-02-05 16:10:16,890 INFO com.nopcommerce.user.Level_15_Extend_Screenshort] - Login - Step_03: Input to password text box is123456
 [2024-02-05 16:10:16,949 INFO com.nopcommerce.user.Level_15_Extend_Screenshort] - Login - Step_04: Click to login button
 [2024-02-05 16:10:17,498 INFO com.nopcommerce.user.Level_15_Extend_Screenshort] - Login - Step_05: veryfy my account link is displayed
+[2024-02-06 21:20:45,999 INFO com.nopcommerce.user.Level_16_Share_Data] - Login - Step_01: Navigate to login page
+[2024-02-06 21:20:47,191 INFO com.nopcommerce.user.Level_16_Share_Data] - Login - Step_02: Input to email text box isabc8656@gmail.com
+[2024-02-06 21:20:47,389 INFO com.nopcommerce.user.Level_16_Share_Data] - Login - Step_03: Input to password text box is123456
+[2024-02-06 21:20:47,486 INFO com.nopcommerce.user.Level_16_Share_Data] - Login - Step_04: Click to login button
+[2024-02-06 21:24:30,480 INFO com.nopcommerce.user.Level_16_Share_Data] - Login - Step_01: Navigate to login page
+[2024-02-06 21:24:31,760 INFO com.nopcommerce.user.Level_16_Share_Data] - Login - Step_02: Input to email text box isabc8792@gmail.com
+[2024-02-06 21:24:31,935 INFO com.nopcommerce.user.Level_16_Share_Data] - Login - Step_03: Input to password text box is123456
+[2024-02-06 21:24:32,023 INFO com.nopcommerce.user.Level_16_Share_Data] - Login - Step_04: Click to login button
+[2024-02-06 21:30:54,932 INFO com.nopcommerce.user.Level_16_Share_Data] - Pre-Condition - Step_01: Navigate to login page
+[2024-02-06 21:30:56,593 INFO com.nopcommerce.user.Level_16_Share_Data] - Pre-Condition - Step_02: Input to email text box isabc2206@gmail.com
+[2024-02-06 21:30:56,789 INFO com.nopcommerce.user.Level_16_Share_Data] - Pre-Condition - Step_03: Input to password text box is123456
+[2024-02-06 21:30:56,911 INFO com.nopcommerce.user.Level_16_Share_Data] - Pre-Condition - Step_04: Click to login button
+[2024-02-06 21:59:10,287 INFO com.nopcommerce.user.Level_16_Share_Data_Cookie] - Pre-Condition - Step_01: Navigate to login page
+[2024-02-06 21:59:11,566 INFO com.nopcommerce.user.Level_16_Share_Data_Cookie] - Pre-Condition - Step_02: Set cookie and reload page
+[2024-02-06 21:59:14,613 INFO com.nopcommerce.user.Level_16_Share_Data_Cookie] - Login - Step_03: veryfy my account link is displayed
+[2024-02-06 22:02:18,340 INFO com.nopcommerce.user.Level_16_Share_Data_Cookie] - Pre-Condition - Step_01: Navigate to login page
+[2024-02-06 22:02:19,414 INFO com.nopcommerce.user.Level_16_Share_Data_Cookie] - Pre-Condition - Step_02: Set cookie and reload page
+[2024-02-06 22:02:22,498 INFO com.nopcommerce.user.Level_16_Share_Data_Cookie] - Login - Step_03: verify my account link is displayed
+[2024-02-06 22:04:43,327 INFO com.nopcommerce.user.Level_16_Share_Data_Cookie] - Pre-Condition - Step_01: Navigate to login page
+[2024-02-06 22:04:44,526 INFO com.nopcommerce.user.Level_16_Share_Data_Cookie] - Pre-Condition - Step_02: Set cookie and reload page
+[2024-02-06 22:04:47,575 INFO com.nopcommerce.user.Level_16_Share_Data_Cookie] - Login - Step_03: verify my account link is displayed
+[2024-02-06 22:08:41,335 INFO com.nopcommerce.user.Level_16_Share_Data_Cookie] - Pre-Condition - Step_01: Navigate to login page
+[2024-02-06 22:08:42,463 INFO com.nopcommerce.user.Level_16_Share_Data_Cookie] - Pre-Condition - Step_02: Set cookie and reload page
+[2024-02-06 22:08:45,517 INFO com.nopcommerce.user.Level_16_Share_Data_Cookie] - Login - Step_03: verify my account link is displayed
+[2024-02-06 22:14:54,937 INFO com.nopcommerce.user.Level_16_Share_Data_Cookie] - Pre-Condition - Step_01: Navigate to login page
+[2024-02-06 22:14:56,134 INFO com.nopcommerce.user.Level_16_Share_Data_Cookie] - Pre-Condition - Step_02: Set cookie and reload page
+[2024-02-06 22:14:59,232 INFO com.nopcommerce.user.Level_16_Share_Data_Cookie] - Login - Step_03: verify my account link is displayed
+[2024-02-06 22:18:13,617 INFO com.nopcommerce.user.Level_16_Share_Data_Cookie] - Pre-Condition - Step_01: Navigate to login page
+[2024-02-06 22:18:15,096 INFO com.nopcommerce.user.Level_16_Share_Data_Cookie] - Pre-Condition - Step_02: Set cookie and reload page
+[2024-02-06 22:18:18,278 INFO com.nopcommerce.user.Level_16_Share_Data_Cookie] - Login - Step_03: verify my account link is displayed
+[2024-02-06 22:20:14,279 INFO com.nopcommerce.user.Level_16_Share_Data_Cookie] - Pre-Condition - Step_01: Navigate to login page
+[2024-02-06 22:20:15,628 INFO com.nopcommerce.user.Level_16_Share_Data_Cookie] - Pre-Condition - Step_02: Set cookie and reload page
+[2024-02-06 22:20:18,763 INFO com.nopcommerce.user.Level_16_Share_Data_Cookie] - Login - Step_03: verify my account link is displayed
+[2024-02-06 22:25:11,002 INFO com.nopcommerce.user.Level_16_Share_Data_Cookie] - Pre-Condition - Step_01: Navigate to login page
+[2024-02-06 22:25:11,729 INFO com.nopcommerce.user.Level_16_Share_Data_Cookie] - Pre-Condition - Step_02: Set cookie and reload page
+[2024-02-06 22:25:14,288 INFO com.nopcommerce.user.Level_16_Share_Data_Cookie] - Login - Step_03: verify my account link is displayed
+[2024-02-06 22:52:07,675 INFO com.nopcommerce.user.Level_16_Share_Data_Cookie] - Pre-Condition - Step_01: Navigate to login page
+[2024-02-06 22:52:08,922 INFO com.nopcommerce.user.Level_16_Share_Data_Cookie] - Pre-Condition - Step_02: Set cookie and reload page
+[2024-02-06 22:52:11,381 INFO com.nopcommerce.user.Level_16_Share_Data_Cookie] - Login - Step_03: verify my account link is displayed
+[2024-02-06 22:59:40,991 INFO com.nopcommerce.user.Level_16_Share_Data_Cookie] - Pre-Condition - Step_01: Navigate to login page
+[2024-02-06 22:59:41,634 INFO com.nopcommerce.user.Level_16_Share_Data_Cookie] - Pre-Condition - Step_02: Set cookie and reload page
+[2024-02-06 22:59:45,125 INFO com.nopcommerce.user.Level_16_Share_Data_Cookie] - Login - Step_03: verify my account link is displayed
