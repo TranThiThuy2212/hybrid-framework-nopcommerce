@@ -491,4 +491,19 @@ public class BasePage {
         clickToElement(driver,BasePageUI.LOGOUT_LINK_AT_ADMIN);
         return PageGenaratorManager.getAdminLoginPage(driver);
     }
+
+    public void inputToTextboxByID(WebDriver driver,String textboxID, String value) {
+        waitForElementVisibile(driver, BasePageUI.DYNAMIC_TEXTBOX_BY_ID, textboxID);
+        sendkeyToElement(driver, BasePageUI.DYNAMIC_TEXTBOX_BY_ID, value, textboxID);
+    }
+
+    public void clickToButtonByText(WebDriver driver,String buttonText) {
+        waitForElementClickable(driver, BasePageUI.DYNAMIC_CLICK_BUTTON_BY_TEXT, buttonText);
+        clickToElement(driver, BasePageUI.DYNAMIC_CLICK_BUTTON_BY_TEXT, buttonText);
+
+    }
+    public void selectToDropDownByName(WebDriver driver, String drodownAttributeName, String itemValue) {
+        waitForElementVisibile(driver, BasePageUI.DYNAMIC_DROPDOWN_BY_NAME, drodownAttributeName);
+        selectItemInDefaultDropDown(driver, BasePageUI.DYNAMIC_DROPDOWN_BY_NAME,itemValue, drodownAttributeName);
+    }
 }

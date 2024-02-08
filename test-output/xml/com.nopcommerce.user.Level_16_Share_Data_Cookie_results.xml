@@ -1,129 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuite name="Run on Chrome"
-           tests="8"
-           failures="1"
+           tests="6"
+           failures="0"
            errors="0"
-           skipped="7"
-           time="49.012">
+           skipped="0"
+           time="0.165">
   <properties />
-            <testcase name="beforeClass" time="49.011" classname="com.nopcommerce.user.Level_16_Share_Data_Cookie">
-                <failure type="org.openqa.selenium.TimeoutException"
-                  message="Expected condition failed: waiting for element to be clickable: By.xpath: //a[@class=&apos;ico-account&apos;] (tried for 30 second(s) with 500 milliseconds interval)"
-              >
-<![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //a[@class='ico-account'] (tried for 30 second(s) with 500 milliseconds interval)
-  org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
-  org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-  commons.BasePage.waitForElementClickable(BasePage.java:428)
-  pageObjects.nopCommerce.user.UserHomePageObject.isMyAccountLinkDisplayed(UserHomePageObject.java:28)
-  com.nopcommerce.user.Level_16_Share_Data_Cookie.beforeClass(Level_16_Share_Data_Cookie.java:45)
-  java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-  java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-  java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-  java.base/java.lang.reflect.Method.invoke(Method.java:568)
-  org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-  org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-  org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
-  org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
-  org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
-  org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
-  java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-  org.testng.TestRunner.privateRun(TestRunner.java:848)
-  org.testng.TestRunner.run(TestRunner.java:621)
-  org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-  org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-  org.testng.SuiteRunner.run(SuiteRunner.java:336)
-  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-  org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-  org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-  org.testng.TestNG.runSuites(TestNG.java:1114)
-  org.testng.TestNG.run(TestNG.java:1082)
-  com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
-  com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='ico-account']"}
-  (Session info: chrome=121.0.6167.140)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
-System info: host: 'DESKTOP-G1KMTQH', ip: '192.168.176.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.140, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\TRANTHUY\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49817}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 639fd18055bbb6c007033733f2df4fed
-*** Element info: {Using=xpath, value=//a[@class='ico-account']}
-  java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-  java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-  java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-  java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-  java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-  org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-  org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-  org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-  org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-  org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-  org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-  org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-  org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
-  org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
-  org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:641)
-  org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:638)
-  org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
-  commons.BasePage.waitForElementClickable(BasePage.java:428)
-  pageObjects.nopCommerce.user.UserHomePageObject.isMyAccountLinkDisplayed(UserHomePageObject.java:28)
-  com.nopcommerce.user.Level_16_Share_Data_Cookie.beforeClass(Level_16_Share_Data_Cookie.java:45)
-  java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-  java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-  java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-  java.base/java.lang.reflect.Method.invoke(Method.java:568)
-  org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-  org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-  org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
-  org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
-  org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
-  org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
-  java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-  org.testng.TestRunner.privateRun(TestRunner.java:848)
-  org.testng.TestRunner.run(TestRunner.java:621)
-  org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-  org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-  org.testng.SuiteRunner.run(SuiteRunner.java:336)
-  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-  org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-  org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-  org.testng.TestNG.runSuites(TestNG.java:1114)
-  org.testng.TestNG.run(TestNG.java:1082)
-  com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
-  com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
-]]>
-      </failure>
-
-          </testcase>
-  
-            <testcase name="afterClass" time="0.0" classname="com.nopcommerce.user.Level_16_Share_Data_Cookie">
-          <skipped />
-    </testcase>
-            <testcase name="Search_02_Relative_Product_Name" time="0.0" classname="com.nopcommerce.user.Level_16_Share_Data_Cookie">
-          <skipped />
-    </testcase>
-            <testcase name="Search_03_Absolute_Product_Name" time="0.0" classname="com.nopcommerce.user.Level_16_Share_Data_Cookie">
-          <skipped />
-    </testcase>
-            <testcase name="Search_05_Incorrect_Manufactorer" time="0.0" classname="com.nopcommerce.user.Level_16_Share_Data_Cookie">
-          <skipped />
-    </testcase>
-            <testcase name="Search_01_Empty_Data" time="0.0" classname="com.nopcommerce.user.Level_16_Share_Data_Cookie">
-          <skipped />
-    </testcase>
-            <testcase name="Search_04_Parent_Category" time="0.0" classname="com.nopcommerce.user.Level_16_Share_Data_Cookie">
-          <skipped />
-    </testcase>
-            <testcase name="Search_06_Correct_Manufactorer" time="0.0" classname="com.nopcommerce.user.Level_16_Share_Data_Cookie">
-          <skipped />
-    </testcase>
   
   
+            <testcase name="Search_06_Correct_Manufactorer" time="0.005" classname="com.nopcommerce.user.Level_16_Share_Data_Cookie" />
+                <testcase name="Search_01_Empty_Data" time="0.137" classname="com.nopcommerce.user.Level_16_Share_Data_Cookie" />
+                <testcase name="Search_02_Relative_Product_Name" time="0.003" classname="com.nopcommerce.user.Level_16_Share_Data_Cookie" />
+                <testcase name="Search_03_Absolute_Product_Name" time="0.005" classname="com.nopcommerce.user.Level_16_Share_Data_Cookie" />
+                <testcase name="Search_04_Parent_Category" time="0.003" classname="com.nopcommerce.user.Level_16_Share_Data_Cookie" />
+                <testcase name="Search_05_Incorrect_Manufactorer" time="0.012" classname="com.nopcommerce.user.Level_16_Share_Data_Cookie" />
+      
 </testsuite>

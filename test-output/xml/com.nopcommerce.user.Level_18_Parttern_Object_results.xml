@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Run on Firefox"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="4.305">
+  <properties />
+  
+  
+            <testcase name="User_01_Register" time="2.670" classname="com.nopcommerce.user.Level_18_Parttern_Object" />
+                <testcase name="User_02_Login" time="1.635" classname="com.nopcommerce.user.Level_18_Parttern_Object" />
+      
+</testsuite>

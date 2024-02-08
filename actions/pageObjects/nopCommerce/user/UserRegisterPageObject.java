@@ -85,4 +85,14 @@ public class UserRegisterPageObject extends BasePage {
         clickToElement(driver, RegisterPageUI.CONTINUE_BUTTON);
         return PageGenaratorManager.getUserHomePage(driver);
     }
+
+    public void inputToTextboxByID(String textboxID, String value) {
+
+    }
+
+    public void clickToButtonByText(String s) {
+    }
+
+    public void selectToDropDownByName(WebDriver driver, String s, String s1) {
+    }
 }

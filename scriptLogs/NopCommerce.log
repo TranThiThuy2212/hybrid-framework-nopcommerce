@@ -242,3 +242,142 @@
 [2024-02-06 22:59:40,991 INFO com.nopcommerce.user.Level_16_Share_Data_Cookie] - Pre-Condition - Step_01: Navigate to login page
 [2024-02-06 22:59:41,634 INFO com.nopcommerce.user.Level_16_Share_Data_Cookie] - Pre-Condition - Step_02: Set cookie and reload page
 [2024-02-06 22:59:45,125 INFO com.nopcommerce.user.Level_16_Share_Data_Cookie] - Login - Step_03: verify my account link is displayed
+[2024-02-08 21:26:23,937 INFO com.nopcommerce.user.Level_16_Share_Data_Cookie] - Pre-Condition - Step_01: Navigate to login page
+[2024-02-08 21:26:25,466 INFO com.nopcommerce.user.Level_16_Share_Data_Cookie] - Pre-Condition - Step_02: Set cookie and reload page
+[2024-02-08 22:27:59,789 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Register - Step_01: Navigate to Register page
+[2024-02-08 22:28:00,469 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Register - Step_02: Input to first name text box isTran
+[2024-02-08 22:28:00,693 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Register - Step_03: Input to last name text box isThuy
+[2024-02-08 22:28:00,862 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Register - Step_04: Input to email text box isabc6813@gmail.com
+[2024-02-08 22:28:01,042 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Register - Step_05: Input to password text box is123456
+[2024-02-08 22:28:01,172 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Register - Step_06: Input to confirm password text box is123456
+[2024-02-08 22:28:01,336 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Register - Step_07: Click to Register button
+[2024-02-08 22:28:01,337 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Register - Step_08: veryfy register sucess message
+[2024-02-08 22:28:31,638 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Login - Step_01: Navigate to login page
+[2024-02-08 22:28:58,535 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Register - Step_01: Navigate to Register page
+[2024-02-08 22:28:59,772 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Register - Step_02: Input to first name text box isTran
+[2024-02-08 22:28:59,993 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Register - Step_03: Input to last name text box isThuy
+[2024-02-08 22:29:00,094 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Register - Step_04: Input to email text box isabc1408@gmail.com
+[2024-02-08 22:29:00,176 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Register - Step_05: Input to password text box is123456
+[2024-02-08 22:29:00,237 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Register - Step_06: Input to confirm password text box is123456
+[2024-02-08 22:29:00,291 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Register - Step_07: Click to Register button
+[2024-02-08 22:29:00,291 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Register - Step_08: veryfy register sucess message
+[2024-02-08 22:29:09,712 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Login - Step_01: Navigate to login page
+[2024-02-08 22:29:09,732 INFO com.nopcommerce.user.Level_18_Parttern_Object] - OS name = windows 10
+[2024-02-08 22:29:09,736 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Driver instance name = firefoxdriver: firefox on windows (6ae59d23-5c8b-4762-971f-fe09f59e080d)
+[2024-02-08 22:29:09,755 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Tried to run command without establishing a connection
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-G1KMTQH', ip: '192.168.176.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 122.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20240205133611, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 16364, moz:profile: C:\Users\TRANTHUY\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6ae59d23-5c8b-4762-971f-fe09f59e080d
+[2024-02-08 22:30:11,633 INFO com.nopcommerce.user.Level_18_Parttern_Object] - OS name = windows 10
+[2024-02-08 22:30:11,635 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Cannot invoke "Object.toString()" because "this.driver" is null
+[2024-02-08 22:30:31,491 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Register - Step_01: Navigate to Register page
+[2024-02-08 22:30:32,530 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Register - Step_02: Input to first name text box isTran
+[2024-02-08 22:30:32,714 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Register - Step_03: Input to last name text box isThuy
+[2024-02-08 22:30:32,793 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Register - Step_04: Input to email text box isabc9011@gmail.com
+[2024-02-08 22:30:32,865 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Register - Step_05: Input to password text box is123456
+[2024-02-08 22:30:32,931 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Register - Step_06: Input to confirm password text box is123456
+[2024-02-08 22:30:32,994 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Register - Step_07: Click to Register button
+[2024-02-08 22:30:32,994 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Register - Step_08: veryfy register sucess message
+[2024-02-08 22:31:13,605 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Login - Step_01: Navigate to login page
+[2024-02-08 22:31:14,532 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Login - Step_02: Input to email text box isabc9011@gmail.com
+[2024-02-08 22:31:14,653 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Login - Step_03: Input to password text box is123456
+[2024-02-08 22:31:14,716 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Login - Step_04: Click to login button
+[2024-02-08 22:31:15,088 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Login - Step_05: veryfy my account link is displayed
+[2024-02-08 22:31:55,669 INFO com.nopcommerce.user.Level_18_Parttern_Object] - OS name = windows 10
+[2024-02-08 22:31:55,669 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Driver instance name = firefoxdriver: firefox on windows (20a1ef70-ea57-47de-a9b9-3b46a4cb51dc)
+[2024-02-08 22:34:31,658 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Register - Step_01: Navigate to Register page
+[2024-02-08 22:34:32,757 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Register - Step_02: Input to first name text box isTran
+[2024-02-08 22:34:32,948 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Register - Step_03: Input to last name text box isThuy
+[2024-02-08 22:34:33,026 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Register - Step_04: Input to email text box isabc890@gmail.com
+[2024-02-08 22:34:33,105 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Register - Step_05: Input to password text box is123456
+[2024-02-08 22:34:33,168 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Register - Step_06: Input to confirm password text box is123456
+[2024-02-08 22:34:33,224 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Register - Step_07: Click to Register button
+[2024-02-08 22:34:33,224 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Register - Step_08: veryfy register sucess message
+[2024-02-08 22:35:13,843 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Login - Step_01: Navigate to login page
+[2024-02-08 22:35:15,068 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Login - Step_02: Input to email text box isabc890@gmail.com
+[2024-02-08 22:35:15,263 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Login - Step_03: Input to password text box is123456
+[2024-02-08 22:35:15,341 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Login - Step_04: Click to login button
+[2024-02-08 22:35:15,692 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Login - Step_05: veryfy my account link is displayed
+[2024-02-08 22:35:59,092 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Register - Step_01: Navigate to Register page
+[2024-02-08 22:36:00,236 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Register - Step_02: Input to first name text box isTran
+[2024-02-08 22:36:00,418 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Register - Step_03: Input to last name text box isThuy
+[2024-02-08 22:36:00,490 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Register - Step_04: Input to email text box isabc5791@gmail.com
+[2024-02-08 22:36:00,555 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Register - Step_05: Input to password text box is123456
+[2024-02-08 22:36:00,628 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Register - Step_06: Input to confirm password text box is123456
+[2024-02-08 22:36:00,688 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Register - Step_07: Click to Register button
+[2024-02-08 22:36:00,688 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Register - Step_08: veryfy register sucess message
+[2024-02-08 22:36:41,295 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Login - Step_01: Navigate to login page
+[2024-02-08 22:36:42,218 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Login - Step_02: Input to email text box isabc5791@gmail.com
+[2024-02-08 22:36:42,348 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Login - Step_03: Input to password text box is123456
+[2024-02-08 22:36:42,423 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Login - Step_04: Click to login button
+[2024-02-08 22:36:43,295 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Login - Step_05: veryfy my account link is displayed
+[2024-02-08 22:36:50,049 INFO com.nopcommerce.user.Level_18_Parttern_Object] - OS name = windows 10
+[2024-02-08 22:36:50,050 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Driver instance name = firefoxdriver: firefox on windows (7e58babb-52c6-435b-93ef-e1a961a832c5)
+[2024-02-08 22:36:50,058 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Browsing context has been discarded
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-G1KMTQH', ip: '192.168.176.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 122.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20240205133611, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 3176, moz:profile: C:\Users\TRANTHUY\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 7e58babb-52c6-435b-93ef-e1a961a832c5
+[2024-02-08 22:37:16,598 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Register - Step_01: Navigate to Register page
+[2024-02-08 22:37:17,647 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Register - Step_02: Input to first name text box isTran
+[2024-02-08 22:37:17,860 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Register - Step_03: Input to last name text box isThuy
+[2024-02-08 22:37:17,939 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Register - Step_04: Input to email text box isabc4890@gmail.com
+[2024-02-08 22:37:18,000 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Register - Step_05: Input to password text box is123456
+[2024-02-08 22:37:18,064 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Register - Step_06: Input to confirm password text box is123456
+[2024-02-08 22:37:18,130 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Register - Step_07: Click to Register button
+[2024-02-08 22:37:18,130 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Register - Step_08: veryfy register sucess message
+[2024-02-08 22:38:25,254 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Register - Step_01: Navigate to Register page
+[2024-02-08 22:38:26,379 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Register - Step_02: Input to first name text box isTran
+[2024-02-08 22:38:26,600 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Register - Step_03: Input to last name text box isThuy
+[2024-02-08 22:38:26,677 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Register - Step_04: Input to email text box isabc9109@gmail.com
+[2024-02-08 22:38:26,792 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Register - Step_05: Input to password text box is123456
+[2024-02-08 22:38:26,880 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Register - Step_06: Input to confirm password text box is123456
+[2024-02-08 22:38:26,953 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Register - Step_07: Click to Register button
+[2024-02-08 22:38:27,574 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Register - Step_08: veryfy register sucess message
+[2024-02-08 22:38:27,697 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Register - Step_09: Click to continue button
+[2024-02-08 22:38:28,136 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Login - Step_01: Navigate to login page
+[2024-02-08 22:38:28,500 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Login - Step_02: Input to email text box isabc9109@gmail.com
+[2024-02-08 22:38:28,598 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Login - Step_03: Input to password text box is123456
+[2024-02-08 22:38:28,665 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Login - Step_04: Click to login button
+[2024-02-08 22:38:29,203 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Login - Step_05: veryfy my account link is displayed
+[2024-02-08 22:38:29,513 INFO com.nopcommerce.user.Level_18_Parttern_Object] - OS name = windows 10
+[2024-02-08 22:38:29,513 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Driver instance name = firefoxdriver: firefox on windows (fd35feeb-d6a8-4719-a317-7acffd16a0ef)
+[2024-02-08 22:39:11,325 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Register - Step_01: Navigate to Register page
+[2024-02-08 22:39:12,405 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Register - Step_02: Input to first name text box isTran
+[2024-02-08 22:39:12,618 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Register - Step_03: Input to last name text box isThuy
+[2024-02-08 22:39:12,689 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Register - Step_04: Input to email text box isabc8407@gmail.com
+[2024-02-08 22:39:12,750 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Register - Step_05: Input to password text box is123456
+[2024-02-08 22:39:12,808 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Register - Step_06: Input to confirm password text box is123456
+[2024-02-08 22:39:12,879 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Register - Step_07: Click to Register button
+[2024-02-08 22:39:13,580 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Register - Step_08: veryfy register sucess message
+[2024-02-08 22:39:13,722 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Register - Step_09: Click to continue button
+[2024-02-08 22:39:14,189 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Login - Step_01: Navigate to login page
+[2024-02-08 22:39:14,596 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Login - Step_02: Input to email text box isabc8407@gmail.com
+[2024-02-08 22:39:14,687 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Login - Step_03: Input to password text box is123456
+[2024-02-08 22:39:14,746 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Login - Step_04: Click to login button
+[2024-02-08 22:39:15,367 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Login - Step_05: veryfy my account link is displayed
+[2024-02-08 22:39:15,546 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Login - Step_06: Navigate to My Account page
+[2024-02-08 22:39:15,910 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Login - Step_07: verify customer info page is displayed
+[2024-02-08 22:39:16,088 INFO com.nopcommerce.user.Level_18_Parttern_Object] - OS name = windows 10
+[2024-02-08 22:39:16,089 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Driver instance name = firefoxdriver: firefox on windows (4165df4d-87e9-4c57-a94e-2db64d805c62)
+[2024-02-08 22:39:58,179 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Register - Step_01: Navigate to Register page
+[2024-02-08 22:39:59,232 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Register - Step_02: Input to first name text box isTran
+[2024-02-08 22:39:59,410 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Register - Step_03: Input to last name text box isThuy
+[2024-02-08 22:39:59,498 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Register - Step_04: Input to email text box isabc6270@gmail.com
+[2024-02-08 22:39:59,565 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Register - Step_05: Input to password text box is123456
+[2024-02-08 22:39:59,633 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Register - Step_06: Input to confirm password text box is123456
+[2024-02-08 22:39:59,685 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Register - Step_07: Click to Register button
+[2024-02-08 22:40:00,284 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Register - Step_08: veryfy register sucess message
+[2024-02-08 22:40:00,412 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Register - Step_09: Click to continue button
+[2024-02-08 22:40:00,893 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Login - Step_01: Navigate to login page
+[2024-02-08 22:40:01,261 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Login - Step_02: Input to email text box isabc6270@gmail.com
+[2024-02-08 22:40:01,360 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Login - Step_03: Input to password text box is123456
+[2024-02-08 22:40:01,418 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Login - Step_04: Click to login button
+[2024-02-08 22:40:01,979 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Login - Step_05: veryfy my account link is displayed
+[2024-02-08 22:40:02,103 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Login - Step_06: Navigate to My Account page
+[2024-02-08 22:40:02,431 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Login - Step_07: verify customer info page is displayed
+[2024-02-08 22:40:02,529 INFO com.nopcommerce.user.Level_18_Parttern_Object] - OS name = windows 10
+[2024-02-08 22:40:02,530 INFO com.nopcommerce.user.Level_18_Parttern_Object] - Driver instance name = firefoxdriver: firefox on windows (db3c1e2b-1909-46a1-9950-5705c414a44a)

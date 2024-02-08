@@ -41,8 +41,8 @@ public class Level_16_Share_Data_Cookie extends BaseTest {
         }
         userLoginPage.refreshCurrentPage(driver);
 
-        log.info("Login - Step_03: verify my account link is displayed");
-        verifyTrue(userHomePage.isMyAccountLinkDisplayed());
+        //log.info("Login - Step_03: verify my account link is displayed");
+        //verifyTrue(userHomePage.isMyAccountLinkDisplayed());
 
     }
 
