@@ -15,10 +15,7 @@ import org.testng.annotations.BeforeSuite;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 import java.util.concurrent.TimeUnit;
 
 public class BaseTest {
@@ -202,5 +199,8 @@ public class BaseTest {
                 e.printStackTrace();
             }
         }
+    }
+    public int ganarateNumber() {
+        return new Random().nextInt(9999);
     }
 }

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Run on Firefox"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="9.226">
+  <properties />
+  
+  
+            <testcase name="Sort_01_Name" time="4.523" classname="com.saucedemo.sort.Level_19_Sort" />
+                <testcase name="Sort_02_Price" time="4.703" classname="com.saucedemo.sort.Level_19_Sort" />
+      
+</testsuite>
