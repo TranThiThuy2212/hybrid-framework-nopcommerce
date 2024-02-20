@@ -5,14 +5,20 @@ import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.BeforeSuite;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
 public class BaseTest {
@@ -38,8 +44,19 @@ public class BaseTest {
         if(browserName.equals("firefox")){
             driver = WebDriverManager.firefoxdriver().create();
             driver =new FirefoxDriver();
+            FirefoxOptions options = new FirefoxOptions();
+            options.addArguments("--disable-notifications");
         } else if(browserName.equals("chrome")){
             driver =WebDriverManager.chromedriver().create();
+            ChromeOptions options = new ChromeOptions();
+            options.addArguments("--disable-notifications");
+            options.setExperimentalOption("useAutomationExtension", false);
+            options.setExperimentalOption("excludewitches", Collections.singletonList("enable-automation"));
+            Map<String,Object> prefs = new HashMap<String,Object>();
+            prefs.put("credentials_enable_service", false);
+            prefs.put("profile.password_manager_enabled",false);
+            prefs.put("autofill.credit_card_enable",false);
+            options.setExperimentalOption("prefs",prefs);
             driver =new ChromeDriver();
         }else if(browserName.equals("edge")){
             driver =WebDriverManager.edgedriver().create();
