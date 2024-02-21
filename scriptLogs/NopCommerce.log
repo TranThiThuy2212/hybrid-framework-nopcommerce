@@ -409,3 +409,21 @@ Session ID: 7e58babb-52c6-435b-93ef-e1a961a832c5
 [2024-02-21 14:41:01,387 INFO com.nopcommerce.user.Level_20_Fake_Data] - Login - Step_07: verify customer info page is displayed
 [2024-02-21 14:41:01,493 INFO com.nopcommerce.user.Level_20_Fake_Data] - OS name = windows 10
 [2024-02-21 14:41:01,494 INFO com.nopcommerce.user.Level_20_Fake_Data] - Driver instance name = firefoxdriver: firefox on windows (c99ae0ce-f1ce-4568-b793-32745baed29f)
+[2024-02-21 16:45:52,659 INFO com.nopcommerce.user.Level_20_Data_Driven_Testing] - Register - Step_01: Navigate to Register page
+[2024-02-21 16:45:53,980 INFO com.nopcommerce.user.Level_20_Data_Driven_Testing] - Register - Step_02: Input to first name text box isThuy
+[2024-02-21 16:45:54,297 INFO com.nopcommerce.user.Level_20_Data_Driven_Testing] - Register - Step_03: Input to last name text box isTran
+[2024-02-21 16:45:54,444 INFO com.nopcommerce.user.Level_20_Data_Driven_Testing] - Register - Step_04: Input to email text box isabc@gmail.com
+[2024-02-21 16:45:54,541 INFO com.nopcommerce.user.Level_20_Data_Driven_Testing] - Register - Step_05: Input to password text box is123456
+[2024-02-21 16:45:54,642 INFO com.nopcommerce.user.Level_20_Data_Driven_Testing] - Register - Step_06: Input to confirm password text box is123456
+[2024-02-21 16:45:54,727 INFO com.nopcommerce.user.Level_20_Data_Driven_Testing] - Register - Step_07: Click to Register button
+[2024-02-21 16:45:55,584 INFO com.nopcommerce.user.Level_20_Data_Driven_Testing] - Register - Step_08: veryfy register sucess message
+[2024-02-21 16:45:55,713 INFO com.nopcommerce.user.Level_20_Data_Driven_Testing] - Register - Step_09: Click to continue button
+[2024-02-21 16:45:56,182 INFO com.nopcommerce.user.Level_20_Data_Driven_Testing] - Login - Step_01: Navigate to login page
+[2024-02-21 16:45:56,661 INFO com.nopcommerce.user.Level_20_Data_Driven_Testing] - Login - Step_02: Input to email text box isabc@gmail.com
+[2024-02-21 16:45:56,765 INFO com.nopcommerce.user.Level_20_Data_Driven_Testing] - Login - Step_03: Input to password text box is123456
+[2024-02-21 16:45:56,825 INFO com.nopcommerce.user.Level_20_Data_Driven_Testing] - Login - Step_04: Click to login button
+[2024-02-21 16:45:57,501 INFO com.nopcommerce.user.Level_20_Data_Driven_Testing] - Login - Step_05: veryfy my account link is displayed
+[2024-02-21 16:45:57,656 INFO com.nopcommerce.user.Level_20_Data_Driven_Testing] - Login - Step_06: Navigate to My Account page
+[2024-02-21 16:45:58,028 INFO com.nopcommerce.user.Level_20_Data_Driven_Testing] - Login - Step_07: verify customer info page is displayed
+[2024-02-21 16:45:58,157 INFO com.nopcommerce.user.Level_20_Data_Driven_Testing] - OS name = windows 10
+[2024-02-21 16:45:58,158 INFO com.nopcommerce.user.Level_20_Data_Driven_Testing] - Driver instance name = firefoxdriver: firefox on windows (5ff10d2d-a643-4bb1-95f6-cca580b2c0bc)
