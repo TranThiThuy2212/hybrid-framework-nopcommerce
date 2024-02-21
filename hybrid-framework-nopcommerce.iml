@@ -42,5 +42,6 @@
     <orderEntry type="library" name="ExtendV5" level="project" />
     <orderEntry type="library" name="Allure" level="project" />
     <orderEntry type="library" name="aspectjweaver-1.9.20" level="project" />
+    <orderEntry type="library" name="libFaker" level="project" />
   </component>
 </module>

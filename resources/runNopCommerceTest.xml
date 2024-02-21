@@ -11,7 +11,7 @@
     <test name="Run on Firefox" preserve-order="true">
         <parameter name="browser" value="firefox"/>
         <classes>
-            <class name="com.nopcommerce.user.Level_18_Parttern_Object" />
+            <class name="com.nopcommerce.user.Level_20_Fake_Data" />
         </classes>
     </test>
 
