@@ -45,5 +45,7 @@
     <orderEntry type="library" name="libFaker" level="project" />
     <orderEntry type="library" name="jackson-annotations-2.10.0" level="project" />
     <orderEntry type="library" name="libOwner" level="project" />
+    <orderEntry type="library" name="mssql-jdbc-10.2.0.jre17" level="project" />
+    <orderEntry type="library" name="jtds-1.3.1" level="project" />
   </component>
 </module>
