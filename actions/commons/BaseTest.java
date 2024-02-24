@@ -67,7 +67,7 @@ public class BaseTest {
         return driver;
     }
 
-    protected WebDriver getBrowserDriver(String browserName, String appUrl){
+    protected WebDriver getBrowserDriver(String browserName, String appUrl, String environmentName){
         System.out.println("Run on" + browserName);
         if(browserName.equals("firefox")){
             driver = WebDriverManager.firefoxdriver().create();
@@ -83,8 +83,28 @@ public class BaseTest {
         }
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         driver.manage().window().maximize();
-        driver.get(appUrl);
+        driver.get(getEnvironmentUrl(environmentName));
         return driver;
+    }
+    protected String getEnvironmentUrl(String environmentName){
+        String envUrl = null;
+        EnvironmentList environment= EnvironmentList.valueOf(environmentName.toUpperCase());
+        if(environment == EnvironmentList.DEV){
+            envUrl = "https://demo.nopcommerce.com/";
+        }
+        else if(environment == EnvironmentList.TESTING){
+            envUrl = "https://demo.nopcommerce.com/v2";
+        }
+        else if(environment == EnvironmentList.LIVE){
+            envUrl = "https://demo.nopcommerce.com/v3";
+        }
+        else if(environment == EnvironmentList.PRODUCTION){
+            envUrl = "https://demo.nopcommerce.com/v4";
+        }
+        else {
+            throw new RuntimeException("Server name invalid");
+        }
+        return envUrl;
     }
 
     protected boolean verifyTrue(boolean condition) {
