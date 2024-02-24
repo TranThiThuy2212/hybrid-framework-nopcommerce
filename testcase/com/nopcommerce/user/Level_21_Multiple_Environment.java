@@ -26,7 +26,7 @@ public class Level_21_Multiple_Environment extends BaseTest {
     @Parameters({"browser","environment"})
     @BeforeClass
     public void beforeClass(String browerName,String environmentName){
-        driver =getBrowserDriver(browerName,environmentName);
+        driver =getBrowserDriver(browerName, environmentName);
         userData=UserData.getUserData();
         firstName=userData.getFirstName();
         lastName=userData.getLastName();

@@ -67,7 +67,7 @@ public class BaseTest {
         return driver;
     }
 
-    protected WebDriver getBrowserDriver(String browserName, String appUrl, String environmentName){
+    protected WebDriver getBrowserDriver(String browserName, String environmentName){
         System.out.println("Run on" + browserName);
         if(browserName.equals("firefox")){
             driver = WebDriverManager.firefoxdriver().create();
